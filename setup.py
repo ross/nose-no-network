@@ -16,9 +16,8 @@ setup(
     version=version,
     description='A plugin for nosetests that disables network access',
     long_description=long_description,
-    author=', '.join([
-        'Ross McFarland',
-    ]),
+    long_description_content_type='text/markdown',
+    author='Ross McFarland',
     url='https://github.com/ross/nose-no-network',
     packages=[
         'nosenonetwork',
